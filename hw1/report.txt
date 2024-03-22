@@ -1,0 +1,28 @@
+
+USER	statistics:
+dialogs:	9275
+turns:	83540
+sentences:	153300
+words:	1223957
+vocabulary:	31559
+shannon_entropy:	9.567900091891431
+mean_turns:	4.532555615843733
+mean_sentences:	8.317145957677699
+mean_words:	66.40651112316874
+stddev_turns:	0.539199048594081
+stddev_sentences:	3.223200544882356
+stddev_words:	27.590230445442526
+
+SYS	statistics:
+dialogs:	9155
+turns:	83247
+sentences:	171244
+words:	1568737
+vocabulary:	44809
+shannon_entropy:	10.306886503515141
+mean_turns:	4.516657623440043
+mean_sentences:	9.290992946283234
+mean_words:	85.1113944655453
+stddev_turns:	0.5238045056188101
+stddev_sentences:	3.374168492188647
+stddev_words:	29.299042613197006

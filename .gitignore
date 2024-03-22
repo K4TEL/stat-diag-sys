@@ -1,0 +1,8 @@
+__pycache__
+.*.swp
+hw3/gpt2-multiwoz
+
+/.idea/
+
+*.json
+*.tgz
