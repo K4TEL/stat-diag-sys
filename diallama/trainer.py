@@ -14,9 +14,9 @@ from fuzzywuzzy import fuzz
 from diallama.mw_loader import DataLoader, SPECIAL_TOKENS, end_token
 from diallama.database import MultiWOZDatabase
 
-valid_scores_file = "../hw5/multiwoz_scores.txt"
-test_outputs_file = "../hw5/multiwoz_outputs.txt"
-test_f1_file = "../hw5/multiwoz_f1.txt"
+valid_scores_file = "../two_stage_decode/multiwoz_scores.txt"
+test_outputs_file = "../two_stage_decode/multiwoz_outputs.txt"
+test_f1_file = "../two_stage_decode/multiwoz_f1.txt"
 
 
 class Trainer:

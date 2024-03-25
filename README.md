@@ -1,8 +1,8 @@
 # stat-diag-sys
 
-### GPT-2 based NN connected to external knowledge base with 2-stage decoding for the Statistical Dialogue Systems course
+### GPT-2 based NN connected to external knowledge base with 2-stage decoding
 
-Most of the code templates for training and evaluation of GPT-2 model were derived from the base repository of the course NPFL099
+Most of the code templates for training and evaluation of GPT-2 model were derived from the existing base repository (private)
 
 Business logic of training, data preprocessing and evaluation was implemented manually
 
@@ -33,25 +33,3 @@ cd <your-repo>; pip install [--user] -e .
 
 Use `--user` to install into your user directories (recommended unless you're using 
 a [virtualenv](https://virtualenv.pypa.io/en/latest/) or [conda](https://docs.conda.io/en/latest/)).
-
-
-## Automated Tests
-
-You can run some basic sanity checks for some homework assignments (so far, only the first one is imlemented,
-we'll let you know if we create more).
-Note that the tests require stuff from `requirements.txt` to be installed in your Python environment.
-The tests assume checking in the current directory, they assume you have the correct branches set up.
-
-For instance, to check `hw1`, run:
-
-```
-./run_tests.py hw1
-```
-
-By default, this will just check your local files. If you want to check whether you have
-your branches set up correctly, use the `--check-git` parameter.
-Note that this will run `git checkout hw1` and `git pull`, so be sure to save any 
-local changes beforehand! 
-
-Please always update from upstream before running tests.
-Some may only be available at the last minute, we're sorry for that!

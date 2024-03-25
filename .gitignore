@@ -1,6 +1,6 @@
 __pycache__
 .*.swp
-hw3/gpt2-multiwoz
+gpt2_finetune/gpt2-multiwoz
 
 /.idea/
 
